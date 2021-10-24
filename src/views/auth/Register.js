@@ -1,5 +1,5 @@
 import React from "react";
-
+import google_svg from "assets/img/google.svg"
 
 export default function Register() {
   return (
@@ -23,7 +23,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/google.svg").default}
+                      src={google_svg}
                     />
                     Google
                   </button>

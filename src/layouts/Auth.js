@@ -11,6 +11,7 @@ import FooterSmall from "../components/Footers/FooterSmall";
 
 import Login from "../views/auth/Login"
 import Register from "../views/auth/Register";
+import img1 from 'assets/img/register_bg_2.png'
 
 
 export default function Auth() {
@@ -23,7 +24,7 @@ export default function Auth() {
             className="absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full"
             style={{
               backgroundImage:
-                "url(" + require("assets/img/register_bg_2.png").default + ")",
+                "url(" + img1,
             }}
           ></div>
           <Switch>

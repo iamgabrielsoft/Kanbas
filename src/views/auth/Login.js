@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import google_svg from "assets/img/google.svg"
 
 export default function Login() {
   return (
@@ -23,7 +24,7 @@ export default function Login() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/google.svg").default}
+                      src={google_svg}
                     />
                     Google
                   </button>
